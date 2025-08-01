@@ -782,7 +782,7 @@ section,
   margin-top: 15px;
 }
 
-.about .progress .skill {
+.about .progress .skills {
   color: var(--default-color);
   padding: 0;
   margin: 0 0 6px 0;
@@ -793,7 +793,7 @@ section,
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.about .progress .skill .val {
+.about .progress .skills .val {
   float: right;
   font-style: normal;
   
@@ -897,9 +897,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# skillss Section
+# skills Section
 --------------------------------------------------------------*/
-.skillss .skills-item {
+.skills .skills-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 30px;
@@ -909,7 +909,7 @@ section,
   height: 100%;
 }
 
-.skillss .skills-item .icon {
+.skills .skills-item .icon {
   color: var(--contrast-color);
   background: var(--accent-color);
   margin: 0;
@@ -924,26 +924,26 @@ section,
   transition: ease-in-out 0.3s;
 }
 
-.skillss .skills-item h3 {
+.skills .skills-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
   transition: ease-in-out 0.3s;
 }
 
-.skillss .skills-item p {
+.skills .skills-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
 @media (min-width: 1365px) {
-  .skillss .skills-item:hover {
+  .skills .skills-item:hover {
     transform: translateY(-10px);
     border-color: var(--accent-color);
   }
 
-  .skillss .skills-item:hover h3 {
+  .skills .skills-item:hover h3 {
     color: var(--accent-color);
   }
 }
@@ -1627,14 +1627,14 @@ section,
 /*--------------------------------------------------------------
 # skills Details Section
 --------------------------------------------------------------*/
-.skills-details .skillss-list {
+.skills-details .skills-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.skills-details .skillss-list a {
+.skills-details .skills-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1644,17 +1644,17 @@ section,
   transition: 0.3s;
 }
 
-.skills-details .skillss-list a.active {
+.skills-details .skills-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.skills-details .skillss-list a:hover {
+.skills-details .skills-list a:hover {
   border-color: var(--accent-color);
 }
 
-.skills-details .skillss-img {
+.skills-details .skills-img {
   margin-bottom: 20px;
 }
 
@@ -1696,3 +1696,4 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
